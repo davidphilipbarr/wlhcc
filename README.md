@@ -2,7 +2,9 @@
 # wlhc: Wayland hot corners
 
 https://whynothugo.nl/journal/2024/07/11/introducing-wlhc-wayland-hot-corners/
+
 Copyright (c) 2024, Hugo Osvaldo Barrera hugo@whynothugo.nl
+
 Execute a command when the pointer touches a corner of the screen.
 
 # Requirements
