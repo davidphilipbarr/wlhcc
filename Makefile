@@ -5,7 +5,7 @@ WAYLAND_SCANNER = $(shell pkg-config --variable=wayland_scanner wayland-scanner)
 
 WAYLAND_PROTOCOLS_DIR = $(shell pkg-config --variable=pkgdatadir wayland-protocols)
 # Using the protocol found in another project as it's missing from system
-WLR_LAYER_SHELL_XML = /home/david/Projects/wlroots/lavalauncher/protocol/wlr-layer-shell-unstable-v1.xml
+WLR_LAYER_SHELL_XML = ./protocols/wlr-layer-shell-unstable-v1.xml
 SINGLE_PIXEL_XML = $(WAYLAND_PROTOCOLS_DIR)/staging/single-pixel-buffer/single-pixel-buffer-v1.xml
 XDG_SHELL_XML = $(WAYLAND_PROTOCOLS_DIR)/stable/xdg-shell/xdg-shell.xml
 VIEWPORTER_XML = $(WAYLAND_PROTOCOLS_DIR)/stable/viewporter/viewporter.xml
